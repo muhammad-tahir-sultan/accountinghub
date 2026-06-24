@@ -1,0 +1,107 @@
+import type { SiteConfig } from "@/niche-ui";
+
+export const siteConfig: SiteConfig = {
+  niche: "Accounting Firm",
+  demoBadge: "Demo Website — Thompson Accounting",
+  business: {
+    name: "Thompson Accounting",
+    shortName: "Thompson",
+    tagline: "Trusted Accounting for Small Businesses",
+    phone: "(555) 345-6789",
+    email: "info@thompsonaccounting.com",
+    address: "789 Finance Blvd, Your City, ST 12345",
+    hours: "Mon–Fri 8am–6pm · Extended hours during tax season",
+  },
+  branding: {
+    primary: "#D97706",
+    accent: "#1E293B",
+    heroGradient: "linear-gradient(135deg, #D97706 0%, #F59E0B 50%, #1E293B 100%)",
+  },
+  nav: [
+    { href: "/", label: "Home" },
+    { href: "/about", label: "About" },
+    { href: "/services", label: "Services" },
+    { href: "/team", label: "Our Team" },
+    { href: "/tax-resources", label: "Tax Resources" },
+    { href: "/testimonials", label: "Reviews" },
+    { href: "/contact", label: "Contact" },
+  ],
+  hero: {
+    badge: "Tax Season Open — Book Now",
+    headline: "Accounting You Can Trust — For Business and Life",
+    subheadline: "Thompson Accounting helps small businesses and individuals save time, reduce taxes, and make smarter decisions.",
+    primaryCta: { label: "Free Consultation", href: "/contact" },
+    secondaryCta: { label: "Tax Resources", href: "/tax-resources" },
+  },
+  trust: ["CPA Certified", "20+ Years Experience", "500+ Clients", "QuickBooks ProAdvisor"],
+  problems: [
+    { title: "Outdated Website", description: "Clients question expertise when your site looks dated." },
+    { title: "Confusing Services", description: "Visitors don't understand what you offer." },
+    { title: "Missed Tax Season Leads", description: "Peak inquiry periods pass without online capture." },
+    { title: "No Trust Signals", description: "Missing CPA credentials and client proof." },
+    { title: "Poor Mobile UX", description: "Business owners search on phones." },
+    { title: "No Online Intake", description: "Clients can't easily request a quote." },
+  ],
+  solutions: [
+    { title: "Clear Service Pages", description: "Simple explanations of tax, bookkeeping, and advisory." },
+    { title: "Trust & Credentials", description: "CPA badges and success stories front and center." },
+    { title: "Tax Season Campaigns", description: "Banners and deadlines that drive urgency." },
+    { title: "Local SEO", description: "Rank for CPA and accountant searches locally." },
+  ],
+  services: [
+    { slug: "tax-preparation", title: "Tax Preparation", description: "Individual and business returns prepared accurately.", benefits: ["Individual returns", "S-Corp & LLC", "Deduction optimization", "Audit support"] },
+    { slug: "bookkeeping", title: "Bookkeeping & Payroll", description: "Monthly bookkeeping and payroll services.", benefits: ["Reconciliation", "Financial statements", "Payroll", "QuickBooks setup"] },
+    { slug: "advisory", title: "Business Advisory", description: "Strategic financial guidance for growth.", benefits: ["Cash flow planning", "Forecasting", "Growth strategy", "Virtual CFO"] },
+    { slug: "irs-resolution", title: "IRS Problem Resolution", description: "Help with audits, back taxes, and payment plans.", benefits: ["Audit representation", "Offer in compromise", "Installment agreements", "Penalty abatement"] },
+    { slug: "entity-formation", title: "Entity Formation", description: "Set up LLC, S-Corp, or partnership correctly.", benefits: ["Entity selection", "EIN registration", "Operating agreements", "Tax planning"] },
+    { slug: "nonprofit", title: "Nonprofit Accounting", description: "Accounting for 501(c)(3) organizations.", benefits: ["Form 990", "Grant compliance", "Board reporting", "Fund accounting"] },
+  ],
+  team: [
+    { name: "Michael Thompson", role: "Managing Partner", credentials: "CPA · 20 Years", bio: "Small business tax strategy and advisory specialist." },
+    { name: "Rachel Adams", role: "Senior Accountant", credentials: "CPA", bio: "Bookkeeping and payroll expert for growing businesses." },
+    { name: "Kevin Wu", role: "Tax Associate", credentials: "EA", bio: "Individual tax and IRS resolution specialist." },
+  ],
+  testimonials: [
+    { name: "John D.", detail: "JD Construction", rating: 5, review: "Saved us thousands in taxes. Always responsive during tax season." },
+    { name: "Maria G.", detail: "Individual Client", rating: 5, review: "Best tax experience ever. They explain everything clearly." },
+    { name: "TechStart LLC", detail: "Startup Client", rating: 5, review: "Advisory services helped us navigate our first profitable year." },
+  ],
+  about: {
+    mission: "Accurate, proactive accounting that helps clients save money and grow with confidence.",
+    vision: "The go-to accounting partner for small businesses in our community.",
+    story: "Founded in 2004, Thompson Accounting serves 500+ clients with a team of experienced CPAs.",
+    values: [
+      { title: "Accuracy", description: "Every number matters." },
+      { title: "Integrity", description: "Honest advice and transparent pricing." },
+      { title: "Proactive", description: "We help you plan ahead." },
+      { title: "Education", description: "We explain the why behind your finances." },
+    ],
+    whyChooseUs: ["CPA-led team", "Proactive planning", "Year-round support", "Transparent pricing", "Quick response"],
+  },
+  cta: {
+    title: "Ready to Simplify Your Finances?",
+    subtitle: "Free consultation — no obligation. Tax season appointments filling fast.",
+    primaryCta: { label: "Free Consultation", href: "/contact" },
+    secondaryCta: { label: "View Tax Deadlines", href: "/tax-resources" },
+  },
+  contact: {
+    headline: "Get a Free Consultation",
+    subheadline: "Tell us about your needs and we'll recommend the right services.",
+    formFields: ["Name", "Email", "Phone", "Business", "Service", "Message"],
+  },
+  seo: {
+    title: "Thompson Accounting | CPA in Your City",
+    description: "Tax prep, bookkeeping & advisory. CPA certified. Free consultation.",
+  },
+  extraPage: {
+    slug: "tax-resources",
+    navLabel: "Tax Resources",
+    title: "Tax Season Resources",
+    sections: [
+      { title: "Key Deadlines", content: ["April 15 — Individual returns", "March 15 — S-Corp & Partnership", "April 15 — C-Corporation", "October 15 — Extended deadline"] },
+      { title: "Document Checklist", content: ["W-2s and 1099s", "Mortgage statements", "Donation receipts", "Business records", "Prior year return"] },
+      { title: "Tax Tips", content: "Track business expenses year-round. Schedule a mid-year review to avoid surprises." },
+      { title: "Book Early", content: "Tax season appointments fill quickly. Book your consultation now." },
+    ],
+  },
+};
